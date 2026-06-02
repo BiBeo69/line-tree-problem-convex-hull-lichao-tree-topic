@@ -10,17 +10,17 @@ A selected competitive programming solution from my preparation for the Vietname
 
 Each node of a tree stores a line:
 
-[
+$$
 f_i(x) = a_i x + b_i
-]
+$$
 
 The tree root can change dynamically. For each query, we need to find the maximum line value among all nodes in the subtree of a given node under the current root.
 
 The constraints are large:
 
-[
+$$
 n, q \le 2 \cdot 10^5
-]
+$$
 
 so a brute-force approach is not feasible.
 
